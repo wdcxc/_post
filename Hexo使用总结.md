@@ -2,9 +2,10 @@
 title: Hexo使用总结
 date: 2015/10/24 
 tags: 
+- Tools
 - Hexo
 categories:
-- Others
+- Tools
 ---
 
 [toc]
