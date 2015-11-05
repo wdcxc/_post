@@ -97,15 +97,15 @@ curl -sSL https://get.daocloud.io/daomonit/install.sh | sh -s 89740b95f9100e3fd8
 |docker **ps**|查看当前**正在运行**的容器|
 |docker **push** < image name >|**推送**指定镜像|
 |**R**|*|
-|docker **restart** < container name \| container id >|**重启**指定容器|
-|docker **rm** < container name \| container id >|**删除**指定容器|
-|docker **rmi** [ -f ] < image name \| image id >|**删除**指定镜像|
+|docker **restart** < container name or container id >|**重启**指定容器|
+|docker **rm** < container name or container id >|**删除**指定容器|
+|docker **rmi** [ -f ] < image name or image id >|**删除**指定镜像|
 |docker **run** < image name >|**运行**指定镜像|
 |**S**|*|
 |docker **save** < image >|**保存镜像**到tar文件中,并发送到STDOUT|
-|docker **search** < image name \| repository name >|**搜索**镜像|
-|docker **start** < container name \| container id >|**启动**指定容器|
-|docker **stop** < container name \| container id >|**停止**指定容器|
+|docker **search** < image name or repository name >|**搜索**镜像|
+|docker **start** < container name or container id >|**启动**指定容器|
+|docker **stop** < container name or container id >|**停止**指定容器|
 |**T**|*|
 |docker **tag** < image id > < docker hub namespace/image name:version label or tag >|设置镜像**标签**|
 |**W**|*|
